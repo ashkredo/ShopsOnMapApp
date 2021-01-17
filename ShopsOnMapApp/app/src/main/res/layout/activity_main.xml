@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonList"
+        android:layout_width="233dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="253dp"
+        android:text="@string/shops_list"
+        android:onClick="goToList"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMap" />
+
+    <Button
+        android:id="@+id/buttonMap"
+        android:layout_width="233dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="213dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="449dp"
+        android:text="@string/google_map"
+        android:onClick="goToMap"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

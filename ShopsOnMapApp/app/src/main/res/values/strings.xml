@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ShopsOnMapApp</string>
+    <string name="shop_name">shop name</string>
+    <string name="back">Back</string>
+    <string name="add">Add</string>
+    <string name="shops_list">Shops list</string>
+    <string name="google_map">Google Map</string>
+</resources>
